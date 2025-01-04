@@ -7,7 +7,7 @@ import { Typewriter } from "react-simple-typewriter";
 import heroImage from "../../src/assets/icons/banner.png";
 function Hero() {
   return (
-    <div className="flex flex-col items-center w-full  my-10 lg:px-64">
+    <div id="hero" className="flex flex-col items-center w-full  my-10 lg:px-64 mt-24">
       {/* right div */}
       <div className="h-36 mt-10">
         <img
