@@ -40,10 +40,10 @@ function Hero() {
         </p>
 
         <section className="flex gap-x-3 mt-5">
-          <button className="hover:bg-orange-500  hover:border-orange-500 hover:shadow-2xl hover:shadow-orange-500 hover:text-white/80 text-orange-600 font-semibold hover:text-white py-2 lg:px-4 px-2 py-2 border  rounded duration-150 flex items-center gap-x-3 ">
+          <Link to='https://drive.google.com/drive/folders/1JZXmple_j6wlU6XYrHWS543RhS0tA742?usp=drive_link' className="hover:bg-orange-500  hover:border-orange-500 hover:shadow-2xl hover:shadow-orange-500 hover:text-white/80 text-orange-600 font-semibold hover:text-white py-2 lg:px-4 px-2 py-2 border  rounded duration-150 flex items-center gap-x-3 ">
             <FaCloudDownloadAlt />
             Download Resume
-          </button>
+          </Link>
           <Link
             className="border-2 hover:border-orange-500 duration-150 hover:bg-orange-500 hover:shadow-2xl hover:shadow-orange-500  lg:p-3 px-2 py-2 rounded-full text-orange-500 hover:text-white/90"
             target="_blank"
