@@ -89,7 +89,7 @@ function Projects() {
         {/* card */}
      <div>
       <h1 className='text-xl font-semibold my-3'>Matrimony Website : </h1>
-     <div className="relative border bg-aEight bg-no-repeat h-[500px] bg-cover bg-center rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" 
+     <div className="relative border bg-aTwelve bg-no-repeat h-[500px] bg-cover bg-center rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" 
         >
           
         <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center space-y-4 rounded-lg">

@@ -13,6 +13,7 @@ export default {
         'aElaven': "url('/src/assets/icons/aElaven.png')",
         'aTen': "url('/src/assets/icons/aTen.png')",
         'aEight': "url('/src/assets/icons/aEight.png')",
+        'aTwelve': "url('/src/assets/icons/a12.png')",
 
       },
       fontFamily: {
