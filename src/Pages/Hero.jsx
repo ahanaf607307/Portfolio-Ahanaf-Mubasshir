@@ -17,7 +17,7 @@ function Hero() {
       </div>
       {/* left div */}
       <div className="leftDiv flex flex-col justify-center items-center text-center mt-5">
-        <p className="text-xl font-medium">Hi, I am</p>
+        <p className="text-xl font-medium">Hi, This is</p>
         <h1 className="text-3xl font-semibold mt-2">
           <Typewriter
             words={["Ahanaf Mubasshir"]}
@@ -29,7 +29,7 @@ function Hero() {
             delaySpeed={3000}
           />
         </h1>
-        <h1 className="lg:text-6xl  my-4 text-orange-500">
+        <h1 className="md:text-3xl lg:text-4xl  my-4 text-orange-500">
           Junior Fullstack Web Developer - MERN based in Rangpur,Bangladesh.
         </h1>
         <p className="mt-8 text-md text-white/80 px-4">
