@@ -1,43 +1,4 @@
-// import React from 'react'
 
-// function Contact() {
-//   return (
-//     <div id='contact' className='my-20'>
-//       <h1 className='text-5xl font-semibold text-center'>Contact Now</h1>
-//       <div>
-//         {/* send message */}
-//         <div>
-//         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-//       <form className="card-body">
-//         <div className="form-control">
-//           <label className="label">
-//             <span className="label-text">Email</span>
-//           </label>
-//           <input type="email" placeholder="Email" className="input input-bordered" required />
-//         </div>
-//         <div className="form-control">
-//           <label className="label">
-//             <span className="label-text">Message</span>
-//           </label>
-//           <textarea type="text" placeholder="Write Your Message Here" className="input input-bordered" required />
-//         </div>
-//         <div className="form-control mt-6">
-//           <button className="btn btn-primary">Send Message</button>
-//         </div>
-//       </form>
-//     </div>
-//         </div>
-
-//         {/* info */}
-//         <div>
-          
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Contact
 import React from 'react'
 import { FaWhatsapp } from 'react-icons/fa6'
 import { IoLocationSharp } from 'react-icons/io5'

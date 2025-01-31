@@ -30,7 +30,7 @@ function Hero() {
           />
         </h1>
         <h1 className="lg:text-6xl  my-4 text-orange-500">
-          Frontend Web Developer based in Rangpur,Bangladesh.
+          Junior Fullstack Web Developer - MERN based in Rangpur,Bangladesh.
         </h1>
         <p className="mt-8 text-md text-white/80 px-4">
           Passionate and creative Web Developer with a keen eye for detail and a
