@@ -19,7 +19,7 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link to='https://docs.google.com/document/d/1vy4ii8B4LHu6TfKmGscaKmRfWqykxkalLr9DB3gC8yQ/edit?usp=sharing' target='_blank' className="border-2 border-white/80 hover:border-orange-500 px-2 py-2 rounded-2xl hidden md:flex items-center  "><FaCloudDownloadAlt className='mr-2' /> Resume</Link>
+    <Link to='https://drive.google.com/drive/folders/1WNflCcEkJTQ_V_4imMq_XXYsX8D-xkbr?usp=sharing' target='_blank' className="border-2 border-white/80 hover:border-orange-500 px-2 py-2 rounded-2xl hidden md:flex items-center  "><FaCloudDownloadAlt className='mr-2' /> Resume</Link>
     <div className="dropdown relative">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg
@@ -43,7 +43,7 @@ function Navbar() {
       <li> <a href='#projects'>Projects</a> </li>
       <li> <a href='#skills'>Skills</a> </li>
       <li> <a href='#contact'>Contact</a> </li>
-      <li><Link to='https://drive.google.com/drive/folders/1JZXmple_j6wlU6XYrHWS543RhS0tA742?usp=drive_link' target='_blank' className="border-2 border-white/80 hover:border-orange-500 px-2 py-2 rounded-2xl flex items-center"><FaCloudDownloadAlt className='mr-2' /> Resume</Link></li>
+      <li><Link to='https://drive.google.com/drive/folders/1WNflCcEkJTQ_V_4imMq_XXYsX8D-xkbr?usp=sharing' target='_blank' className="border-2 border-white/80 hover:border-orange-500 px-2 py-2 rounded-2xl flex items-center"><FaCloudDownloadAlt className='mr-2' /> Resume</Link></li>
       </ul>
     </div>
   </div>
