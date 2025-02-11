@@ -1,18 +1,25 @@
 import React from 'react'
 import Aboutme from './Aboutme'
+import AllProject from './AllProject'
 import Contact from './Contact'
 import Hero from './Hero'
-import Projects from './Projects'
+import LottieGif from './LottieGif'
 import Skils from './Skils'
 
 function Home() {
   return (
-    <div>
+    <div className=' relative'>
+      <div className=' top-0 z-0 fixed'>
+        <LottieGif/>
+      </div>
+      <div className='backdrop-blur-md'>
       <Hero/>
       <Aboutme/>
       <Skils/>
-      <Projects/>
+
+      <AllProject/>
       <Contact/>
+      </div>
     </div>
   )
 }

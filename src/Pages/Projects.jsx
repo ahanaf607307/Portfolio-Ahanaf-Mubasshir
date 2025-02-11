@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Projects() {
   return (
-    <div id='projects' className='px-4 lg:px-0'>
+    <div id='projects' className='px-4 lg:px-0  max-w-7xl mx-auto relative z-30'>
    <h1 className='text-center text-5xl font-bold my-16'>Projects</h1>
 
       <div className=" items-center justify-center grid grid-cols-1 lg:grid-cols-2 gap-10">

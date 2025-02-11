@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-import daisyui from 'daisyui'
+const flowbite = require("flowbite-react/tailwind");
+import daisyui from 'daisyui';
 export default {
   content: [
     "./index.html",
@@ -14,6 +15,7 @@ export default {
         'aTen': "url('/src/assets/icons/aTen.png')",
         'aEight': "url('/src/assets/icons/aEight.png')",
         'aTwelve': "url('/src/assets/icons/a12.png')",
+        'hero-Lottie': "url('/src/assets/lottieBG/bgBanner.json')",
 
       },
       fontFamily: {
@@ -23,6 +25,6 @@ export default {
       }
     },
   },
-  plugins: [daisyui],
+  plugins: [daisyui, flowbite.plugin(),],
 }
 

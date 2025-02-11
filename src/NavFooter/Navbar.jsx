@@ -1,10 +1,21 @@
 import React from 'react'
 import { FaCloudDownloadAlt } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import resumePdf from '../assets/pdf/ahanaf_resume_junior_mern.pdf'
 
 function Navbar() {
+const resumeLink = resumePdf
+
+  const handleDownloadResume = (url) => {
+const resumeName = url.split('/').pop()
+const aTag = document.createElement('a')
+aTag.href = url
+aTag.setAttribute('Download' , resumeName)
+aTag.click()
+aTag.remove()
+  }
   return (
-    <div className="navbar text-white bg-orange-600 fixed top-0 z-50 py-3 md:px-8">
+    <div className="navbar text-white bg-[#14162e] fixed top-0 z-50 py-3 md:px-8">
   <div className="navbar-start">
     
     <Link className="btn btn-ghost text-2xl flex items-center text-white/90 font-logo ">AM</Link>
@@ -19,7 +30,7 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link to='https://drive.google.com/drive/folders/1WNflCcEkJTQ_V_4imMq_XXYsX8D-xkbr?usp=sharing' target='_blank' className="border-2 border-white/80 hover:border-orange-500 px-2 py-2 rounded-2xl hidden md:flex items-center  "><FaCloudDownloadAlt className='mr-2' /> Resume</Link>
+    <button onClick={()=>handleDownloadResume(resumeLink)} target='_blank' className="border-2 border-white/80 hover:border-orange-500 px-2 py-2 rounded-2xl hidden md:flex items-center  "><FaCloudDownloadAlt className='mr-2' /> Resume</button>
     <div className="dropdown relative">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Matrimony Website",
+    "image": "https://i.ibb.co.com/Vr3jVrH/a12.png",
+    "detailsImage": "https://i.ibb.co.com/65JxZSQ/a12.png",
+    "liveLink": "https://marriage-bd.web.app/",
+    "githubLink": "https://github.com/ahanaf607307/marriage-bd-client-a12",
+    "bgClass": "bg-aTwelve",
+    "description": "A matrimonial website where users can find their perfect match.The purpose of the matrimonial website Marriage BD can be Connecting Potential Matches: To create a platform for individuals and families in Bangladesh to find suitable life partners by connecting people with shared values, cultural backgrounds, and interests.onvenience and Accessibility: To offer an easy-to-use online solution where users can browse, communicate, and match with prospective partners from the comfort of their homes.Safe and Secure Platform: To ensure the privacy and security of users' personal information while promoting trust and authenticity in the matchmaking process.",
+    "mainTechonology": ["React Js", "Node Js", "MongoDB", "Express Js"],
+    "improvements": [
+      "Enhanced UI/UX: Improve design with a mobile-friendly,interactive interface.",
+      "AI-Powered Matchmaking: Suggest matches based on shared values, interests, and compatibility scores.",
+      "Profile Verification:Introduce NID/passport verification for authenticity.",
+      "Secure Chat & Video Calls: Enable safe communication between users.",
+      "Privacy &Security: Implement encryption, 2FA, and manual profile screening."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Learning and Assignment Taking Website",
+    "image": "https://i.ibb.co.com/yF3QQF5H/aElaven.png ",
+    "detailsImage": "https://i.ibb.co.com/MyMdBLp7/a11.png",
+    "liveLink": "https://assignment11-56371.web.app/",
+    "githubLink": "https://github.com/programming-hero-web-course2/b10a11-client-side-ahanaf607307",
+    "bgClass": "bg-aElaven",
+    "description": "An online platform to submit and review assignments.Purpose The purpose of Study Today is to provide an interactive and collaborative platform for group studies. It empowers users to - Create and manage study assignments.Collaborate with friends and track progress.Provide and receive constructive feedback through grading systems.",
+    "mainTechonology": ["React Js", "Node Js", "MongoDB", "Express Js"],
+    "improvements": [
+      "Enhanced UI/UX: Improve design for a more user-friendly and responsive interface.",
+      " Real-Time Collaboration: Enable live group discussions and document editing.",
+      "Automated Grading System: Implement AI-based grading for quick feedback.",
+      "Gamification: Add badges, leaderboards, and rewards for motivation",
+      "Mobile App Development: Launch Android & iOS apps for accessibility."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Crowdfunding Website",
+    "image": " https://i.ibb.co.com/QvJP0RW1/aTen.png",
+    "detailsImage": "https://i.ibb.co.com/YB81mN3v/a10.png",
+    "liveLink": "https://croud-funding-2024.web.app/",
+    "githubLink": "https://github.com/programming-hero-web-course2/b10-a10-client-side-ahanaf607307",
+    "bgClass": "bg-aTen",
+    "description": "A crowdfunding platform for raising funds online Crowdfunding Website: User Authentication & Profiles User Registration Login: Email, Google, or Facebook authentication User Profiles: Separate profiles for backers and campaign creators Campaign Management Create & Manage Campaigns: Title, description, category, and funding goal Media Upload: Option to upload images and videos Campaign Updates: Share updates with backers Payment Integration Secure Payment Gateways: SSLCommerz, Stripe, PayPal, etc. Multiple Payment Options: Credit/debit cards, mobile banking, etc. Refund Management: Refund process if a campaign fails Funding & Rewards System Fixed & Flexible Funding: All-or-nothing or keep-what-you-raise models Rewards & Perks: Offer different reward tiers for backers",
+    "mainTechonology": ["React Js", "Node Js", "MongoDB", "Express Js"],
+    "improvements": [
+      "Enhanced UI/UX: Improve interface for seamless navigation and engagement.",
+      "AI-Powered Campaign Suggestions: Recommend campaign strategies based on trends.",
+      "Real-Time Analytics: Provide campaign insights, donor trends, and success rates.",
+      "Automated Fraud Detection: Implement AI to flag suspicious campaigns.",
+      "Recurring Donations: Enable monthly or yearly donation options."
+    ]
+  }
+]

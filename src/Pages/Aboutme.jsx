@@ -1,9 +1,9 @@
 import React from "react";
 import { FaBookOpenReader } from "react-icons/fa6";
-import aboutImage from "../../src/assets/icons/about2.png";
+import aboutImage from "../../src/assets/logo/okey2.png";
 function Aboutme() {
   return (
-    <div className="lg:px-10 mt-20" id="aboutMe">
+    <div className="lg:px-10  relative z-30 max-w-7xl mx-auto" id="aboutMe">
       <p className="text-center text-xl font-semibold my-5">Introduction</p>
       <h1 className="text-center text-4xl font-bold mb-16">About me</h1>
       <div className="grid grid-cols-1 md:grid-cols-12 gap-3 lg:gap-10">

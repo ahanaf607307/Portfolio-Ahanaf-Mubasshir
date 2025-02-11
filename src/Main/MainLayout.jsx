@@ -9,7 +9,7 @@ function MainLayout() {
       <div>
         <Navbar/>
       </div>
-      <div className='max-w-7xl mx-auto flex-1'>
+      <div className=' flex-1'>
         <Outlet/>
       </div>
       <div>

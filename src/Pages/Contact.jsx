@@ -6,7 +6,7 @@ import { MdAddCall, MdOutlineMailOutline } from 'react-icons/md'
 
 function Contact() {
   return (
-    <div id='contact' className='my-20 border-2 py-10 rounded-xl md:mx-5 lg:mx-0'>
+    <div id='contact' className='my-20 border-2 relative z-30 py-10 rounded-xl  max-w-7xl mx-auto'>
       <div  class="p-5 lg:p-20 grid grid-cols-1 md:grid-cols-2 md:gap-20">
         <div class=" flex flex-col gap-y-5" >
           <h1 className='text-5xl font-semibold'>Lets Connect</h1>
