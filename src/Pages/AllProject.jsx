@@ -23,7 +23,7 @@ const projectAll = [
   },
   {
     "id": 2,
-    "title": "Learning and Assignment Taking Website",
+    "title": "Assignment Taking Website",
     "image": "https://i.ibb.co.com/yF3QQF5H/aElaven.png ",
     "detailsImage": "https://i.ibb.co.com/yF3QQF5H/aElaven.png",
     "liveLink": "https://assignment11-56371.web.app/",
@@ -75,31 +75,60 @@ const MyComponent = () => {
   };
 
   return (
-    <div id="projects" className="max-w-7xl mx-auto relative z-30 py-10 px-2">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-5 justify-center items-center">
+    <div id="projects" className="bg-hero-Back2 bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center py-12">
+ <h1 className="text-3xl md:text-5xl font-semibold text-center md:text-start pb-8 ">
+     Projects
+      </h1>
+     <div className="max-w-7xl mx-auto relative z-30 py-10 px-2 ">
+    
+     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-5 justify-center items-center">
         {projectAll?.map((project) => (
-          <div
-            key={project?.id}
-            className="h-[480px] flex flex-col border hover:scale-105 duration-1000 hover:border-blue-800 cursor-pointer rounded-xl "
+          
+          <div className="group relative flex flex-col overflow-hidden rounded-2xl shadow-lg transition-all duration-300 shadow-purple-500/50 bg-[#1c1e3a]">
+      {/* Project Image */}
+      <div className="relative h-72 w-full overflow-hidden rounded-t-2xl">
+        <img
+          src={project?.image}
+          alt={project?.title}
+          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+      </div>
+      
+      {/* Content Section */}
+      <div className="p-5 flex flex-col gap-3 text-white">
+        <h2 className="text-xl font-semibold tracking-wide">{project?.title}</h2>
+      
+        {/* Buttons */}
+        <div className="grid grid-cols-3 gap-x-3">
+          <Link
+            to={project?.liveLink}
+            target="_blank"
+            className="flex-1 text-center"
           >
-            <img src={project?.image} className="h-80 w-full rounded-t-xl" alt="" />
-            <div className="flex-1 py-3 px-2">
-              <h1 className="text-2xl">{project?.title}</h1>
-            </div>
-            <div className="flex justify-around items-center my-3">
-              <Link to={project?.liveLink} target="_blank">
-                <button className="rounded-md border px-5 py-1 hover:bg-blue-500 text-white">
-                  Live
-                </button>
-              </Link>
-              <button
-                className="rounded-md border px-5 py-1 hover:bg-blue-500 text-white"
-                onClick={() => handleOpenModal(project)}
-              >
-                Details
-              </button>
-            </div>
-          </div>
+            <button  className="hover:bg-purple-600  hover:border-purple-600 hover:shadow-2xl hover:shadow-purple-600 hover:text-white/80 text-white/90 font-semibold hover:text-white py-2 lg:px-4 px-2 border-2 w-full hover:scale-105  rounded-md duration-150  items-center gap-x-1  ">
+              Live
+            </button>
+          </Link>
+          
+          <Link
+            to={project?.githubLink}
+            target="_blank"
+            className="flex-1 text-center"
+          >
+            <button  className="hover:bg-purple-600  hover:border-purple-600 hover:shadow-2xl hover:shadow-purple-600 hover:text-white/80 text-white/90 font-semibold hover:text-white py-2 lg:px-4 px-2 border-2 w-full hover:scale-105  rounded-md duration-150  items-center gap-x-1  ">
+              GitHub
+            </button>
+          </Link>
+          
+          <button
+            onClick={() => handleOpenModal(project)}
+             className="hover:bg-purple-600  hover:border-purple-600 hover:shadow-2xl hover:shadow-purple-600 hover:text-white/80 text-white/90 font-semibold hover:text-white py-2 lg:px-4 px-2 border-2 w-full hover:scale-105  rounded-md duration-150  items-center gap-x-1  "
+          >
+            Details
+          </button>
+        </div>
+      </div>
+    </div>
         ))}
       </div>
 
@@ -114,17 +143,14 @@ const MyComponent = () => {
             >
             <div className='py-5 px-3'>
             <h1 className='text-2xl text-white'> {selectedProject?.title}</h1>
-            <h1 className='text-md flex px-3 justify-around my-3'> {selectedProject?.mainTechonology?.map(main => <button className='border-2 border-blue-950 shadow-2xl shadow-blue-700 font-bold text-blue-400 hover:scale-105 duration-200 px-3 py-1 rounded-md '>{main}</button>)}</h1>
+            <h1 className='text-md flex px-3 justify-around my-3'> {selectedProject?.mainTechonology?.map(main => <button className='border-2 border-blue-950 shadow-2xl shadow-purple-700 font-bold text-blue-400 hover:scale-105 duration-200 px-3 py-1 rounded-md '>{main}</button>)}</h1>
             
             <h1 className='text-md text-white'> {selectedProject?.description}</h1>
             <h1 className='text-xl my-3 text-white'> Potential Improvements & Future Plans : </h1>
             
             <ul className='text-md list-disc pl-5 text-white '>  {selectedProject?.improvements?.map(improve => <li>{improve}</li> )}</ul>
             </div>
-            <div className="flex items-center justify-around pb-5">
-             <Link className='btn bg-transparent text-white/90 px-10 hover:bg-[#181838] hover:shadow-2xl hover:shadow-blue-700 duration-150 ' target="_blank" to={selectedProject?.liveLink}>Live</Link>
-             <Link className='btn bg-transparent text-white/90 px-10 hover:bg-[#181838] hover:shadow-2xl hover:shadow-blue-700 duration-150 ' to={selectedProject?.githubLink} target="_blank">GitHub Repo</Link>
-            </div>
+           
             </Card> 
           )}
           <div className="modal-action">
@@ -134,6 +160,7 @@ const MyComponent = () => {
           </div>
         </div>
       </dialog>
+     </div>
     </div>
   );
 };

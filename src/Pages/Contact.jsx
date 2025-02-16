@@ -42,7 +42,7 @@ function Contact() {
               className='w-full min-h-24 my-5 py-3 px-5 rounded-xl text-gray-500'
               placeholder="Enter Your Massage"
             />
-            <input type="submit" value="Submit" class="submit bg-orange-500 w-full py-3 rounded-xl text-md font-semibold cursor-pointer" />
+            <input type="submit" value="Submit" className="hover:bg-purple-600  hover:border-purple-600 hover:shadow-2xl hover:shadow-purple-600 hover:text-white/80 text-white/90 font-semibold hover:text-white py-4 lg:px-4 px-2 border-2 w-full hover:scale-105  rounded-md duration-150  items-center gap-x-1 cursor-pointer " />
           </form>
         </div>
       </div>

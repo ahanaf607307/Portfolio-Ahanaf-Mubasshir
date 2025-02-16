@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="footer  text-neutral-content items-center p-4">
+    <footer className="footer bg-[#271046] text-neutral-content items-center py-4 px-4 md:px-10">
       <aside className="grid-flow-col items-center">
-        <p>
+        <p className="text-lg">
           Ahanaf Mubasshir Rishad © {new Date().getFullYear()} - All right
           reserved
         </p>

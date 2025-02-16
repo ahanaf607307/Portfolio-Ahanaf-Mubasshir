@@ -15,7 +15,7 @@ aTag.click()
 aTag.remove()
   }
   return (
-    <div className="navbar text-white bg-[#14162e] fixed top-0 z-50 py-3 md:px-8">
+    <div className="navbar text-white bg-[#250c44d2] fixed  top-0 backdrop-blur-3xl z-50 py-3 md:px-8">
   <div className="navbar-start">
     
     <Link className="btn btn-ghost text-2xl flex items-center text-white/90 font-logo ">AM</Link>
@@ -30,7 +30,7 @@ aTag.remove()
     </ul>
   </div>
   <div className="navbar-end">
-    <button onClick={()=>handleDownloadResume(resumeLink)} target='_blank' className="border-2 border-white/80 hover:border-orange-500 px-2 py-2 rounded-2xl hidden md:flex items-center  "><FaCloudDownloadAlt className='mr-2' /> Resume</button>
+    <button onClick={()=>handleDownloadResume(resumeLink)} target='_blank' className="hover:bg-purple-600  hover:border-purple-600 hover:shadow-2xl hover:shadow-purple-600 hover:text-white/80 text-white/90 font-semibold hover:text-white py-2 lg:px-4 px-2 border  rounded duration-150  items-center gap-x-1 hidden md:flex  "><FaCloudDownloadAlt className='mr-2' /> Resume</button>
     <div className="dropdown relative">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg
@@ -48,13 +48,13 @@ aTag.remove()
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-orange-600 rounded-box z-[1] mt-3 w-52 p-2 shadow absolute right-2">
+        className="menu menu-sm dropdown-content bg-purple-950 rounded-box z-[1] mt-3 w-32 p-2 shadow absolute right-1">
      <li> <a href='#hero'>Home</a> </li>
       <li> <a href='#aboutMe'>About Me</a> </li>
       <li> <a href='#projects'>Projects</a> </li>
       <li> <a href='#skills'>Skills</a> </li>
       <li> <a href='#contact'>Contact</a> </li>
-      <li><Link to='https://drive.google.com/drive/folders/1WNflCcEkJTQ_V_4imMq_XXYsX8D-xkbr?usp=sharing' target='_blank' className="border-2 border-white/80 hover:border-orange-500 px-2 py-2 rounded-2xl flex items-center"><FaCloudDownloadAlt className='mr-2' /> Resume</Link></li>
+      <li><button onClick={()=>handleDownloadResume(resumeLink)} target='_blank'   className="hover:bg-purple-600  hover:border-purple-600 hover:shadow-2xl hover:shadow-purple-600 hover:text-white/80 text-white/90 font-semibold hover:text-white py-2 lg:px-4 px-2 border  rounded duration-150  items-center gap-x-1  "><FaCloudDownloadAlt className='' /> Resume</button></li>
       </ul>
     </div>
   </div>

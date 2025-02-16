@@ -5,7 +5,7 @@ import Navbar from '../NavFooter/Navbar'
 
 function MainLayout() {
   return (
-    <div className='flex flex-col text-white font-Finlandica'>
+    <div className='flex flex-col text-white bg-[#250c44d2]  font-Finlandica '>
       <div>
         <Navbar/>
       </div>
