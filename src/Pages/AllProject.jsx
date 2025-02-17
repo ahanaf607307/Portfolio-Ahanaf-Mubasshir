@@ -24,8 +24,8 @@ const projectAll = [
   {
     "id": 2,
     "title": "Assignment Taking Website",
-    "image": "https://i.ibb.co.com/yF3QQF5H/aElaven.png ",
-    "detailsImage": "https://i.ibb.co.com/yF3QQF5H/aElaven.png",
+    "image": "https://i.ibb.co.com/tM0C5Jgk/xxx.png",
+    "detailsImage": "https://i.ibb.co.com/tM0C5Jgk/xxx.png",
     "liveLink": "https://assignment11-56371.web.app/",
     "githubLink": "https://github.com/programming-hero-web-course2/b10a11-client-side-ahanaf607307",
     "bgClass": "bg-aElaven",
@@ -42,10 +42,10 @@ const projectAll = [
   {
     "id": 3,
     "title": "Crowdfunding Website",
-    "image": " https://i.ibb.co.com/QvJP0RW1/aTen.png",
-    "detailsImage": "https://i.ibb.co.com/QvJP0RW1/aTen.png",
+    "image": " https://i.ibb.co.com/0yvTcZVY/xx.png",
+    "detailsImage": "https://i.ibb.co.com/0yvTcZVY/xx.png",
     "liveLink": "https://croud-funding-2024.web.app/",
-    "githubLink": "https://github.com/programming-hero-web-course2/b10-a10-client-side-ahanaf607307",
+    "githubLink": "https://github.com/ahanaf607307/client-crowd-found-a10",
     "bgClass": "bg-aTen",
     "description": "A crowdfunding platform for raising funds online Crowdfunding Website: User Authentication & Profiles User Registration Login: Email, Google, or Facebook authentication User Profiles: Separate profiles for backers and campaign creators Campaign Management Create & Manage Campaigns: Title, description, category, and funding goal Media Upload: Option to upload images and videos Campaign Updates: Share updates with backers Payment Integration Secure Payment Gateways: SSLCommerz, Stripe, PayPal, etc. Multiple Payment Options: Credit/debit cards, mobile banking, etc. Refund Management: Refund process if a campaign fails Funding & Rewards System Fixed & Flexible Funding: All-or-nothing or keep-what-you-raise models Rewards & Perks: Offer different reward tiers for backers",
     "mainTechonology": ["React Js", "Node Js", "MongoDB", "Express Js"],
@@ -58,6 +58,7 @@ const projectAll = [
     ]
   }
 ]
+
 
 
 const MyComponent = () => {
