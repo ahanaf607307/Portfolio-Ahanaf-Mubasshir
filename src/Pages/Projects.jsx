@@ -49,7 +49,7 @@ function Projects() {
             Live Link
           </Link>
           <Link
-           to="https://github.com/programming-hero-web-course2/b10a11-client-side-ahanaf607307"
+           to="https://github.com/ahanaf607307/study-today-a11-client"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-black transition-colors duration-300"

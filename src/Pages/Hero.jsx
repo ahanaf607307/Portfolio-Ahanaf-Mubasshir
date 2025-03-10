@@ -6,7 +6,7 @@ import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 import heroImage from "../../src/assets/logo/okey2.png";
-import resumePDF from "../assets/pdf/ahanaf_resume_junior_mern.pdf";
+import resumePDF from "../assets/pdf/Junior Full Stack Developer- MERN ( Ahanaf Mubasshir  ).pdf";
 function Hero() {
   const resumeUrl = resumePDF;
   const handleResumeDownload = (url) => {

@@ -16,8 +16,8 @@ function Contact() {
           </p>
           <div className='flex gap-x-2 font-medium text-md my-3 text-white/80'><IoLocationSharp className='text-3xl'/> <p>  Rangpur , Bangladesh</p></div>
           <div className='flex gap-x-2 font-medium text-md my-3 text-white/80'><MdOutlineMailOutline className='text-3xl'/> <p>  ahanaf607307@gmail.com</p></div>
-          <div className='flex gap-x-2 font-medium text-md my-3 text-white/80'><MdAddCall className='text-3xl'/> <p>  01609961661</p></div>
-          <div className='flex gap-x-2 font-medium text-md my-3 text-white/80'><FaWhatsapp className='text-3xl'/> <p>  01609961661</p></div>
+          <div className='flex gap-x-2 font-medium text-md my-3 text-white/80'><MdAddCall className='text-3xl'/> <p>  +880 1609961661</p></div>
+          <div className='flex gap-x-2 font-medium text-md my-3 text-white/80'><FaWhatsapp className='text-3xl'/> <p>  +880 1609961661</p></div>
         </div>
         <div class="" >
           <h1 className='text-3xl font-semibold'>Let’s Message me</h1>
