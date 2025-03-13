@@ -6,7 +6,7 @@ import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 import heroImage from "../../src/assets/logo/okey2.png";
-import resumePDF from "../assets/pdf/Junior Full Stack Developer- MERN ( Ahanaf Mubasshir  ).pdf";
+import resumePDF from "../assets/pdf/full_stack_developer.pdf";
 function Hero() {
   const resumeUrl = resumePDF;
   const handleResumeDownload = (url) => {
@@ -82,7 +82,7 @@ function Hero() {
                 <img
                   src={heroImage}
                   alt=""
-                  className="h-full z-20 w-full rounded-2xl"
+                  className="h-[400px] z-20 w-full rounded-2xl"
                 />
               </div>
             </div>

@@ -41,7 +41,7 @@ function Projects() {
         >
         <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center space-y-4 rounded-lg">
           <Link
-           to="https://assignment11-56371.web.app/"
+           to="https://study-today1.web.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-black transition-colors duration-300"
@@ -75,7 +75,7 @@ function Projects() {
             Live Link
           </Link>
           <Link
-           to="https://github.com/programming-hero-web-course2/b10-a10-client-side-ahanaf607307"
+           to="https://github.com/ahanaf607307/client-crowd-found-a10"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-black transition-colors duration-300"
@@ -102,7 +102,7 @@ function Projects() {
             Live Link
           </Link>
           <Link
-           to="https://github.com/ahanaf607307/assignment8"
+           to="https://github.com/ahanaf607307/buy-plus-a8"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white border border-white px-4 py-2 rounded hover:bg-white hover:text-black transition-colors duration-300"
