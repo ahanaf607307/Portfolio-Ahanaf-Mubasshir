@@ -56,7 +56,27 @@ const projectAll = [
       "Automated Fraud Detection: Implement AI to flag suspicious campaigns.",
       "Recurring Donations: Enable monthly or yearly donation options."
     ]
-  }
+  },
+  
+
+  {
+    "id": 4,
+    "title": "Healtchcare Website (Team Project)",
+    "image": "https://i.ibb.co.com/PpTrjpv/healthcare.png",
+    "detailsImage": "https://i.ibb.co.com/398yvZ8h/full-healthcare.png",
+    "liveLink": "https://smart-med-appointments.vercel.app/",
+    "githubLink": "https://github.com/ahanaf607307/smart-med-appointments-healthcare-nextjs",
+    "bgClass": "bg-aTen",
+    "description": "Smart Med Appointments is a team-built healthcare web platform that offers patients an easy and efficient way to book appointments with doctors, request or donate blood, and leave feedback through reviews. The system supports three user roles: Admin, Doctor, and User (Patient). Patients can browse available doctors and schedule appointments directly, as well as create or respond to blood donation posts during emergencies. Doctors can manage and accept patient appointments, and keep track of who has booked them. Admins oversee the entire platform, handling user management, doctor verification, and overall system operations. The website also integrates AI-powered features to enhance user experience and improve appointment matching or suggestions, making healthcare services smarter and more accessible. Built collaboratively as a team project, Smart Med Appointments reflects a real-world solution combining technology and healthcare needs.",
+    "mainTechonology": ["Next Js", "Node Js", "MongoDB", "Mongoose", "Express Js"],
+    "improvements": [
+      "Real-Time Notifications: Notify doctors and patients instantly about appointment updates or blood requests.",
+      "Interactive Calendar View: Help users and doctors visualize and manage appointment schedules easily.",
+      "Secure Chat System: Enable private messaging between patients and doctors for better communication.",
+      "AI-Powered Symptom Checker: Suggest possible conditions or suitable doctors based on user input.",
+      "Admin Analytics Dashboard: Show key stats like appointment trends, user activity, and blood donation insights."
+    ]
+  },
 ]
 
 
