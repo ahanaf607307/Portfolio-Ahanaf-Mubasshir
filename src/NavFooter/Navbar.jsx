@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCloudDownloadAlt } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import resumePdf from '../assets/pdf/full_stack_developer.pdf'
+import resumePdf from '../assets/pdf/next_mern_stack_ahanaf.pdf'
 
 function Navbar() {
 const resumeLink = resumePdf

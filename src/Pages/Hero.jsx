@@ -6,7 +6,7 @@ import { FiGithub } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 import heroImage from "../../src/assets/logo/okey2.png";
-import resumePDF from "../assets/pdf/full_stack_developer.pdf";
+import resumePDF from "../assets/pdf/next_mern_stack_ahanaf.pdf";
 function Hero() {
   const resumeUrl = resumePDF;
   const handleResumeDownload = (url) => {
